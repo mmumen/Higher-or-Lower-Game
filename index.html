@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h2>Higher or Lower</h2>
+    <h3>The stakes have been never been higher, will you be recorded in the annals of this glorious site.</h3>
+    <p>Place Holder</p>
+
+    <button onclick="start()">start game</button>
+    <button onclick="higher()">higher</button>
+    <button onclick="lower()">Lower</button>
+    <p id="no. display">Are you ready?</p>
+
+    <script src="script.js">
+    let random = Math.floor((Math.random() * 50)) ;
+
+function start(){
+  document.getElementById('no. display').innerHTML = random; 
+}
+    
+    </script>
+  </body>
+</html>
