@@ -1,20 +1,27 @@
-let random = Math.floor((Math.random() * 2)) ;
+let random = Math.floor((Math.random() * 100)) ;
 function heads(){ 
-    if (random => 2){
-        document.getElementById('coin').innerHTML = random;
-        document.getElementById('status').innerHTML = "you won congratulation"
+    if (random > 50){
+        /*document.getElementById('coin').innerHTML = random;*/
+        document.getElementById('status').innerHTML = "you won, how unfortunate";
+        location.replace("page.html")
+        console.log(random);
+        
     } else {
-        document.getElementById('coin').innerHTML = random;
+        /*document.getElementById('coin').innerHTML = random;*/
         document.getElementById('status').innerHTML = "You Lose. Glory to our site";
+        console.log(random)
     }
 }
 
-function tail() {
-    if (random <=1){
-        document.getElementById('coin').innerHTML = random
-        document.getElementById('status').innerHTML = "you won congratulation"
+function tails() {
+    if (random < 49){
+        /*document.getElementById('coin').innerHTML = random*/
+        document.getElementById('status').innerHTML = "you won congratulation";
+         location.replace("page.html")
+        console.log(random)
     } else {
-        document.getElementById('coin').innerHTML = random;
+        /*document.getElementById('coin').innerHTML = random;*/
         document.getElementById('status').innerHTML = "You Lose. Glory to our site";
+        console.log(random)
     }
 }
