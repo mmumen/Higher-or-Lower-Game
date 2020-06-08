@@ -22,5 +22,15 @@
 }
 
 .head{
-    margin-left: 50;
+    border-color: green;
+    background-color: black;
+    color: green;
+    text-align: center;
+}
+
+.tails{
+    border-color: green;
+    background-color: black;
+    color: green;
+    text-align: center;
 }
