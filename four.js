@@ -25,7 +25,7 @@ function second() {
 function third(){ 
     if (random => 51 && random <= 75){
         document.getElementById('status').innerHTML = "you won, how unfortunate";
-        location.replace("page.html")
+        //location.replace("page.html")
         console.log(random);
         
     } else {
@@ -37,7 +37,7 @@ function third(){
 function fourth(){ 
     if (random => 76){
         document.getElementById('status').innerHTML = "you won, how unfortunate";
-        location.replace("page.html")
+        //location.replace("page.html")
         console.log(random);
         
     } else {
