@@ -1,8 +1,11 @@
-.display-4 {
-    color: black;
+.Pagetitle {
+    color: green;
     text-align: center;
+
 }
 
-.card-body {
-    
+.card{
+    border-color: green;
+    color: green;
+    background-color: black;
 }
