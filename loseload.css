@@ -14,5 +14,7 @@
 }
 
 a:hover{
-    background-color: yellow;
+    background-color: green;
+    border-color: green;
+    color: black;
 }
