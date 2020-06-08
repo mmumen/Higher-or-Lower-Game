@@ -12,7 +12,7 @@ function first(){
 }
 
 function second() {
-    if (random => 26 && random <=50){
+    if (random > 26 && random < 50){
         document.getElementById('status').innerHTML = "you won congratulation";
         //location.replace("page.html")
         console.log(random)
@@ -23,7 +23,7 @@ function second() {
 }
 
 function third(){ 
-    if (random => 51 && random <= 75){
+    if (random > 51 && random < 75){
         document.getElementById('status').innerHTML = "you won, how unfortunate";
         //location.replace("page.html")
         console.log(random);
@@ -35,7 +35,7 @@ function third(){
 }
 
 function fourth(){ 
-    if (random => 76){
+    if (random > 76){
         document.getElementById('status').innerHTML = "you won, how unfortunate";
         //location.replace("page.html")
         console.log(random);
