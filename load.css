@@ -1,3 +1,6 @@
+.background{
+    background-color: black;
+}
 .loader {
     position: fixed;
     z-index: 99;
@@ -25,4 +28,9 @@
         opacity: 0;
         visibility: hidden;
     }
+}
+
+.connect{
+    color: black;
+    background-color: black;
 }
