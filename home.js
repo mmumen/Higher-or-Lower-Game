@@ -3,7 +3,7 @@ function heads(){
     if (random > 50){
         /*document.getElementById('coin').innerHTML = random;*/
         document.getElementById('status').innerHTML = "you won, how unfortunate";
-        location.replace("page.html")
+        location.replace("load.html")
         console.log(random);
         
     } else {
