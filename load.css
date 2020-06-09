@@ -2,8 +2,19 @@
     background-color: black;
 }
 
+.square{
+    text-align: center;
+}
+
 .statement{
+    margin-top: 100;
     color: green;
+    text-align: center;
+}
+.connect{
+    color: green;
+    background-color: black;
+    border-color: green;
     text-align: center;
 }
 .loader {
@@ -35,8 +46,3 @@
     }
 }
 
-.connect{
-    color: green;
-    background-color: black;
-    border-color: green;
-}
