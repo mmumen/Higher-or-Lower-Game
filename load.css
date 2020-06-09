@@ -36,6 +36,7 @@
 }
 
 .connect{
-    color: black;
+    color: green;
     background-color: black;
+    border-color: green;
 }
