@@ -7,34 +7,30 @@
 
 <link href="four.css" rel="stylesheet" type="text/css" />
   </head> 
-
-  <div class="background">
-    <div class="jumbotron jumbotron-fluid">
+<body class="background">
       <div class="container">
         <h1 class="statement">Games of Probability</h1>
         <p class="lead">Welcome to Level 1</p>
       </div>
-    </div>
   <div class="card">
       <div class="card-header">
           Level 1 - Four Box
       </div>
-          <div class="card-body">
-              <blockquote class="blockquote mb-0">
+          <div>
+              <blockquote class="blockquote">
                   <p>You got four boxes, numbered from 1 to 4. Just find the key to progress to the next level.</p>
                   <footer class="blockquote-footer">You've got a chance to reach the next level</footer>
               </blockquote>
           </div>
   </div>
-  <div class="square">
-  <input type='button' class='first' value='1' onclick='first()'>
-  <input type='button' class='second' value='2' onclick='second()'>
-  <input type='button' class='third' value='3' onclick='third()'>
-  <input type='button' class='fourth' value='4' onclick='fourth()'>
-  <p id="coin"></p>
-  <p id="status"></p>
-  </div>
-  </div>
+      <div class="square">
+          <input type='button' class='first' value='1' onclick='first()'>
+          <input type='button' class='second' value='2' onclick='second()'>
+          <input type='button' class='third' value='3' onclick='third()'>
+          <input type='button' class='fourth' value='4' onclick='fourth()'>
+          <p id="coin"></p>
+          <p id="status"></p>
+      </div>
     <script src="four.js"></script>
   </body>
 </html>

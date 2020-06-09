@@ -16,9 +16,10 @@
     text-align: center;
 }
 
-.card-body{
+.blockquote{
     border-color: green;
     border-width: 5%;
+    background-color: grey;
 }
 .connect{
     color: green;
