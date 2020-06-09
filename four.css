@@ -1,0 +1,51 @@
+.square{
+    text-align: center;
+}
+.background{
+    background-color: black;
+    color: green;
+}
+
+.square{
+    text-align: center;
+}
+
+.statement{
+    margin-top: 100;
+    color: green;
+    text-align: center;
+}
+.connect{
+    color: green;
+    background-color: black;
+    border-color: green;
+    text-align: center;
+}
+
+.first{
+    color: green;
+    background-color: black;
+    border-color: green;
+    text-align: center;
+}
+
+.second{
+    color: green;
+    background-color: black;
+    border-color: green;
+    text-align: center;
+}
+
+.third{
+    color: green;
+    background-color: black;
+    border-color: green;
+    text-align: center;
+}
+
+.fourth{
+    color: green;
+    background-color: black;
+    border-color: green;
+    text-align: center;
+}
