@@ -16,10 +16,10 @@
     text-align: center;
 }
 
-.blockquote{
+.box{
     border-color: green;
     border-width: 5%;
-    background-color: grey;
+    text-align: center;
 }
 .connect{
     color: green;
