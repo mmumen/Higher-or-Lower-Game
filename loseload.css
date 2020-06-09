@@ -8,16 +8,13 @@
     text-align: center;
 }
 
-.link{
+.connect{
     color: black;
     background-color: black;
-    
-}
-.place{
     text-align: right;
-    padding-top: 100em;
-    right: 250%;
+    right:100;
 }
+
 
 a:hover{
     background-color: green;
